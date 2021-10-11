@@ -3,10 +3,12 @@
 	height: 800px;
 	width: 100%;
 	justify-content: space-around;
+	z-index: 5;
 }
 
 body {
 	text-align: center;
+	font-family: 'Gemunu Libre', sans-serif;
 }
 
 #AAA {
@@ -47,4 +49,24 @@ p {
 	font-size: 25px;
 	line-height: 1.3;
 	margin: auto;
+}
+
+.menu {
+	list-style: none;
+	font-size: 25px;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	background-color: floralwhite
+}
+
+.item {
+	float: left;
+	padding-left: 9px;
+	padding-right: 9px;
+	z-index: 10;
+}
+
+.item:hover {
+	background-color: cornflowerblue;
 }
